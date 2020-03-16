@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{name:\"pin-pack:test0\",posY:0b}}"
+              "tag": "{BlockEntityTag:{name:\"pin-pack:test0\",posY:0b,integrity:1.0}}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{name:\"pin-pack:tnttrap0\",posY:0b}}"
+              "tag": "{BlockEntityTag:{name:\"pin-pack:tnttrap0\",posY:0b,integrity:1.0}}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{name:\"pin-pack:outhouse0\",posY:0b}}"
+              "tag": "{BlockEntityTag:{name:\"pin-pack:outhouse0\",posY:0b,integrity:0.9}}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{name:\"pin-pack:oak0\",posY:-1b}}"
+              "tag": "{BlockEntityTag:{name:\"pin-pack:oak0\",posY:-1b,integrity:1.0}}"
             }
           ]
         }
