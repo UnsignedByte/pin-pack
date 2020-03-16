@@ -1,5 +1,4 @@
 clone ~ ~ ~ ~1 ~ ~ ~ 0 ~ replace normal
-say @s
 setblock ~ ~ ~ minecraft:structure_block[mode=load]{mode:"LOAD",posX:1,posY:1}
 data modify block ~ ~ ~ name set from entity @s Item.tag.BlockEntityTag.name
 data modify block ~ ~ ~ posY set from entity @s Item.tag.BlockEntityTag.posY
