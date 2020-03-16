@@ -9,6 +9,7 @@ loot spawn ~ ~ ~ loot pin-pack:structorientation
 
 data modify block ~ ~ ~ mirror set from entity @e[type=item,distance=0,limit=1] Item.tag.BlockEntityTag.mirror
 data modify block ~ ~ ~ rotation set from entity @e[type=item,distance=0,limit=1] Item.tag.BlockEntityTag.rotation
+kill @e[type=item,distance=0]
 
 setblock ~1 ~ ~ minecraft:redstone_block
 
