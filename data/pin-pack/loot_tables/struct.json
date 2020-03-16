@@ -32,6 +32,16 @@
               "tag": "{BlockEntityTag:{name:\"pin-pack:outhouse0\",posY:0b}}"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{name:\"pin-pack:oak0\",posY:0b}}"
+            }
+          ]
         }
       ]
     }
