@@ -16,7 +16,6 @@ execute store result entity @s Pos[0] double 1 run scoreboard players get @s xpo
 execute store result entity @s Pos[2] double 1 run scoreboard players get @s zpos
 
 # populate chunks if not yet populated
-# execute at @s positioned ~ ~ ~ unless entity @e[tag=marker,tag=processed,distance=..0.1] run function pin-pack:chunks/populate
 
 execute at @s positioned ~-128 ~ ~-128 unless entity @e[tag=marker,tag=processed,distance=..0.1] run function pin-pack:chunks/populate
 execute at @s positioned ~-128 ~ ~-112 unless entity @e[tag=marker,tag=processed,distance=..0.1] run function pin-pack:chunks/populate
