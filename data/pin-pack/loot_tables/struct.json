@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{name:\"pin-pack:oak0\",posY:0b}}"
+              "tag": "{BlockEntityTag:{name:\"pin-pack:oak0\",posY:-1b}}"
             }
           ]
         }
