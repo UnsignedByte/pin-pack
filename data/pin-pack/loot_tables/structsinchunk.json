@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls":1,
+      "rolls":4,
       "entries": [
         {
           "type": "minecraft:item",
@@ -13,6 +13,10 @@
                 "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:255s}]}"
             }
           ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
         }
       ]
     }
